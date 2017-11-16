@@ -1,8 +1,8 @@
 // Copyright 2016 Chris Conway (Koderz). All Rights Reserved.
 
+#include "RuntimeMeshComponentPlugin.h"
 #include "RuntimeMeshComponentPluginPrivatePCH.h"
 #include "RuntimeMeshVersion.h"
-#include "RuntimeMeshComponentPlugin.h"
 
 
 // Register the custom version with core

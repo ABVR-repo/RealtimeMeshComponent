@@ -1,7 +1,7 @@
 // Copyright 2016 Chris Conway (Koderz). All Rights Reserved.
 
-#include "RuntimeMeshComponentPluginPrivatePCH.h"
 #include "RuntimeMeshComponent.h"
+#include "RuntimeMeshComponentPluginPrivatePCH.h"
 #include "RuntimeMeshCore.h"
 #include "RuntimeMeshGenericVertex.h"
 #include "RuntimeMeshVersion.h"

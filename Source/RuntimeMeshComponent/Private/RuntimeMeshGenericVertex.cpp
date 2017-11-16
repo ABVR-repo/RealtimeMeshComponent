@@ -1,7 +1,7 @@
 // Copyright 2016 Chris Conway (Koderz). All Rights Reserved.
 
-#include "RuntimeMeshComponentPluginPrivatePCH.h"
 #include "RuntimeMeshGenericVertex.h"
+#include "RuntimeMeshComponentPluginPrivatePCH.h"
 #include "RuntimeMeshBuilder.h"
 
 // Finish all the built in vertex types.
