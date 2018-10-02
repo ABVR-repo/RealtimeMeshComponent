@@ -1,6 +1,7 @@
 // Copyright 2016-2018 Chris Conway (Koderz). All Rights Reserved.
 
 using UnrealBuildTool;
+using System.IO;
 
 public class RuntimeMeshComponent : ModuleRules
 {
@@ -10,7 +11,7 @@ public class RuntimeMeshComponent : ModuleRules
 
         PublicIncludePaths.AddRange(
             new string[] {
-                "RuntimeMeshComponent/Public"
+                Path.Combine(ModuleDirectory, "Public")
 				// ... add public include paths required here ...
 			}
             );
@@ -18,7 +19,7 @@ public class RuntimeMeshComponent : ModuleRules
 
         PrivateIncludePaths.AddRange(
             new string[] {
-                "RuntimeMeshComponent/Private",
+                Path.Combine(ModuleDirectory, "Private")
 				// ... add other private include paths required here ...
 			}
             );
