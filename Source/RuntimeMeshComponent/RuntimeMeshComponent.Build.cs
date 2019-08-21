@@ -8,6 +8,7 @@ public class RuntimeMeshComponent : ModuleRules
     public RuntimeMeshComponent(ReadOnlyTargetRules rules) : base(rules)
     {
         PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs;
+        bFasterWithoutUnity = true;
 
         PublicIncludePaths.AddRange(
             new string[] {
@@ -23,7 +24,6 @@ public class RuntimeMeshComponent : ModuleRules
 				// ... add other private include paths required here ...
 			}
             );
-
 
         PublicDependencyModuleNames.AddRange(
             new string[]
@@ -41,8 +41,8 @@ public class RuntimeMeshComponent : ModuleRules
                 "Engine",
 				// ... add private dependencies that you statically link with here ...	
                 "RenderCore",
-                "ShaderCore",
                 "RHI",
+                "NavigationSystem"
             }
             );
 

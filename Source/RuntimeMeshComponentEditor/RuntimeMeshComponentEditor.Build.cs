@@ -24,7 +24,6 @@ public class RuntimeMeshComponentEditor : ModuleRules
 			}
             );
 
-
         PublicDependencyModuleNames.AddRange(
             new string[]
             {
@@ -44,8 +43,8 @@ public class RuntimeMeshComponentEditor : ModuleRules
                 "Slate",
                 "SlateCore",
                 "RenderCore",
-                "ShaderCore",
                 "RHI",
+                "NavigationSystem",
                 "UnrealEd",
                 "LevelEditor",
                 "PropertyEditor",

@@ -1,11 +1,25 @@
 # UE4 Runtime Mesh Component
 
+## I'm actually back! I'm planning the next stage for the RMC!
+
+
 ## The RMC takes a lot of effort to build, extend, and maintain. Please consider [supporting the project!](https://github.com/Koderz/RuntimeMeshComponent/wiki/Support-the-development!)
+
+
 
 
 **There's a Discord server for the RMC!  https://discord.gg/KGvBBTv**
 
-**Examples project can be found here https://github.com/Koderz/RuntimeMeshComponent-Examples**
+**Examples project can be found here https://github.com/Koderz/RuntimeMeshComponent-Examples and here https://github.com/Moddingear/RMC-4.21-Example**
+
+*Current list of added features*
+* Added SetMeshSection
+* Added LOD Support
+* Added GetSectionIdAndFaceIdFromCollisionFaceIndex
+* Added SetLODScreensize_Blueprint
+* Added MeshManager
+* Added templated GetStaticMeshSection
+* Added LOD for collision
 
 ***
 
